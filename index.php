@@ -162,7 +162,7 @@ input:focus + label {
     }
 }
 
-/* Error Handling */
+
 .error-message {
     color: #FF6B6B;
     font-size: 0.875rem;
@@ -181,17 +181,17 @@ input.error {
     75% { transform: translateX(5px); }
 }
 
-/* Input Focus Animation */
+
 input:focus {
     transform: scale(1.01);
 }
 
-/* Success State */
+
 input.success {
     border-color: #4ECDC4;
 }
 
-/* Loading State */
+
 #btn.loading {
     background: #ccc;
     cursor: not-allowed;
