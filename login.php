@@ -13,7 +13,7 @@ if (isset($_POST['submit'])) {
 
     if ($count == 1) {
         header("Location: shendeti 2.html");
-        exit(); // important to stop the script after header
+        exit(); 
     } else {
         echo '<script>
         alert("Login failed. Invalid username or password.");
